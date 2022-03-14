@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val txtContraseña = findViewById<TextView>(R.id.txtPassword)
         val btningresar = findViewById<Button>(R.id.btningresar)
 
+
         btningresar.setOnClickListener {
             val usuario = txtUsuario.getText().toString()
             val pass: String = txtContraseña.getText().toString()

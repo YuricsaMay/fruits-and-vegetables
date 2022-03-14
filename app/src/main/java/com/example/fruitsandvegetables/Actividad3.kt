@@ -3,44 +3,41 @@ package com.example.fruitsandvegetables
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.*
 
 class Actividad3 : AppCompatActivity() {
 
-    val TAG="com.example.fruitsandvegetables.actividad3.CIUDAD"
+    val TAG = "com.example.fruitsandvegetables.actividad3.CIUDAD"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_actividad3)
+        val be = findViewById<Button>(R.id.info3)
+        be.setOnClickListener {
+            var intent = Intent(this,Actividad4::class.java)
+            startActivity(intent)
 
+            val bm = findViewById<Button>(R.id.info4)
+            bm.setOnClickListener {
+                var intent = Intent(this,Guanabana::class.java)
+                startActivity(intent)
 
-        var frutas = ArrayList<frutas>()
-        /* frutas.add("Manzana")
-         frutas.add("Plátano")
-         frutas.add("Sandía")
-         frutas.add("Durazno")*/
+                val bb = findViewById<Button>(R.id.info2)
+                bb.setOnClickListener {
+                    var intent = Intent(this, Anona::class.java)
+                    startActivity(intent)
+                    val bt = findViewById<Button>(R.id.info)
 
-        frutas.add(frutas("Papaya", R.drawable.fruta8))
-        frutas.add(frutas("Guanabana", R.drawable.fruta18))
-        frutas.add(frutas("Caimito o cayumito", R.drawable.fruta10))
-        frutas.add(frutas("Anona", R.drawable.fruta6))
+                    bt.setOnClickListener {
+                        var intent = Intent(this, Caimito::class.java)
+                        startActivity(intent)
+                    }
 
-
-
-        var grid: GridView = findViewById(R.id.grid)
-        //val adaptador =ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,frutas)
-
-        val adaptador = AdaptadorCustom(this, frutas)
-        grid.adapter = adaptador
-        grid.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
-            Toast.makeText(this, frutas.get(position).nombre, Toast.LENGTH_SHORT).show()
-
-
+                }
+            }
         }
     }
-    }
-
+}
 
 
 

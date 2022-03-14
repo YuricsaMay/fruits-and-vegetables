@@ -29,12 +29,12 @@ class Actividad2 : AppCompatActivity() {
             startActivity(intent)
         })
         b2.setOnClickListener(View.OnClickListener {
-            val intent= Intent(this,Actividad4::class.java)
+            val intent= Intent(this,Actividad3::class.java)
             intent.putExtra(TAG, "marzo-abril")
             startActivity(intent)
         })
         b3.setOnClickListener(View.OnClickListener {
-            val intent= Intent(this,temporada::class.java)
+            val intent= Intent(this,Actividad3::class.java)
             intent.putExtra(TAG, "mayo-junio")
             startActivity(intent)
         })
