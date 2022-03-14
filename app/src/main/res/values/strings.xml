@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">fruits and vegetables</string>
+    <string name="texto_limon">
+    El limón es de la familia de las Rutáceas, género Citrus, especie Citrus limonum.
+    Es un fruto ovalado, de unos 7-12 cm de longitud, de cáscara de color amarillo dorado,
+    punteada de glándulas que contienen aceites esenciales. La pulpa se divide en gajos que contienen
+        un jugo de sabor extremadamente ácido.</string>
+</resources>
