@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.widget.Button
 
 
-class Piña : AppCompatActivity() {
+class pina : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_piña)
+        setContentView(R.layout.activity_pina)
 
 
     }

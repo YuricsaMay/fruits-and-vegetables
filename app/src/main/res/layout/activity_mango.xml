@@ -19,7 +19,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
-            android:text="Ciruela"
+            android:text="Mango"
             android:textAlignment="center"
             android:textColor="@color/purple_700"
             android:textSize="34sp"
@@ -33,7 +33,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/fruta12" />
+            app:srcCompat="@drawable/fruta1" />
 
         <TextView
             android:id="@+id/textView5"
@@ -44,7 +44,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:text="La ciruela es un frutal con alto potencial para cultivo, debido a su bajo costo de producción, crece en forma espontánea y se adapta a suelos pobres y delgados donde no se establecen otros cultivos, además tiene resistencia a la sequía por su mecanismo de defoliación (caída prematura de las hojas de los árboles).  Al respecto, basándose en estudios de ciruela mexicana que reportan gran diversidad de especies, las cuales se deben estudiar para obtener materiales con características de calidad y aporte de metabolitos funcionales, que favorezcan su consumo, los investigadores señalaron que los estudios en Chiapas son escasos "
+            android:text="El mango procede originariamente del noroeste de la India y del norte de Birmania. Se cultivó por primera vez hace aproximadamente cinco mil años. Afortunadamente, el cultivo de los mangos se ha extendido a todas las áreas tropicales y subtropicales del mundo, siendo México el principal país exportador del mundo.  Gracias a su sabor peculiar y exquisito, es considerado el rey de las frutas tropicales.  El árbol puede alcanzar hasta treinta metros de altura, el tronco de corteza gris es recto, cilíndrico y de 75-100 cm. de diametro. Los frutos son ovales, alargados y en forma de riñón o corazón. La piel de la fruta madura adopta una gama de colores que va del verde, amarillo o naranja hasta el rojo intenso. La pulpa es de color amarillo anaranjado, dulce, jugosa y muy sabrosa. Presenta un sabor y una textura muy diferentes al resto de frutas de mesa considerándose la fruta tropical por excelencia.  "
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="20sp"

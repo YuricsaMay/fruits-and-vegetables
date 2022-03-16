@@ -19,7 +19,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
-            android:text="Anona"
+            android:text="Jicama"
             android:textAlignment="center"
             android:textColor="@color/purple_700"
             android:textSize="34sp"
@@ -29,11 +29,11 @@
             android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="139dp"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/fruta6" />
+            app:srcCompat="@drawable/fruta21" />
 
         <TextView
             android:id="@+id/textView5"
@@ -44,7 +44,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:text="La anona es un fruto muy efectivo para combatir el cáncer.  Destaca por su sabor dulce y la variedad de postres que hay con su sabor como lo pueden ser helados, batidos o zumos.  Es una fruta típica de zonas tropicales como México, Caribe, Cuba y norte de Sudamérica. Su aspecto por fuera puede imponer por sus espinas, pero su sabor es muy dulce.  La anona es muy recomendable por su eficacia antiviral, antibacterial y antifúngico, por lo que ayuda a combatir parásitos intestinales o infecciones por bacterias. También reduce la presión arterial y la frecuencia cardíaca."
+            android:text="La jícama es una planta herbácea que forma parte de la familia de las leguminosas, de la cual se aprovecha la raíz bulbosa como alimento altamente nutritivo.  Originaria de México, esta planta después se llevó a otros países como las Filipinas y el resto de Asia, así como algunos lugares de los Estados Unidos de América. En otros países también es conocida como nabo mexicano, ñame mexicano o patata china.La jícama es rica en vitaminas, minerales, compuestos orgánicos y fitonutrientes, entre otros componentes que ayudan al organismo.  Entre estos aporta potasio, vitamina B6, vitamina C, vitamina E, folato, magnesio, manganeso, hierro, cobre, ácido pantoténico, fósforo, zinc, calcio, ácido fólico; así como un buen porcentaje de fibra y un poco de proteína."
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="20sp"

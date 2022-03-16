@@ -1,59 +1,50 @@
-package com.example.timeapp
+package com.example.fruitsandvegetables
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import android.view.View
 import android.widget.Button
-import android.widget.Toast
-
 import android.os.Bundle
-import com.example.artsyapp.temporada1
-
 
 class Actividad2 : AppCompatActivity() {
-
-    val TAG="com.example.fruitsandvegetables.actividad2.CIUDAD"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_actividad2)
 
 
-        val b1=findViewById<Button>(R.id.b1)
-        b1.setOnClickListener(View.OnClickListener {
-            val intent= Intent(this, temporada1::class.java)
-            intent.putExtra(TAG, "enero-febrero")
+        val bt= findViewById<Button>(R.id.b1)
+        bt.setOnClickListener {
+            var intent = Intent(this, Actividad3::class.java)
             startActivity(intent)
-        })
-       val b2= findViewById<Button>(R.id.b2)
-        b2.setOnClickListener {
-            var intent = Intent(this, temporada1::class.java)
+
+        }
+        val bFrid= findViewById<Button>(R.id.b2)
+        bFrid.setOnClickListener {
+            var intent = Intent(this, Actividad4::class.java)
             startActivity(intent)
         }
-        val b3=findViewById<Button>(R.id.b3)
-        b3.setOnClickListener(View.OnClickListener {
-            val intent= Intent(this,temporada1::class.java)
-            intent.putExtra(TAG, "mayo-junio")
+        val bFr= findViewById<Button>(R.id.b3)
+        bFr.setOnClickListener {
+            var intent = Intent(this, Actividad5::class.java)
             startActivity(intent)
-        })
-        val b4=findViewById<Button>(R.id.b4)
-        b4.setOnClickListener(View.OnClickListener {
-            val intent= Intent(this,temporada1::class.java)
-            intent.putExtra(TAG, "julio-agosto")
+        }
+        val bF= findViewById<Button>(R.id.b4)
+        bF.setOnClickListener {
+            var intent = Intent(this, Actividad6::class.java)
             startActivity(intent)
-        })
-        val b5=findViewById<Button>(R.id.b5)
-        b5.setOnClickListener(View.OnClickListener {
-            val intent= Intent(this,temporada1::class.java)
-            intent.putExtra(TAG, "septiembre-octubre")
+        }
+        val bda= findViewById<Button>(R.id.b5)
+        bda.setOnClickListener {
+            var intent = Intent(this, Actividad7::class.java)
             startActivity(intent)
-        })
-        val b6=findViewById<Button>(R.id.b6)
-        b6.setOnClickListener(View.OnClickListener {
-            val intent= Intent(this,temporada1::class.java)
-            intent.putExtra(TAG, "noviembre-diciembre")
+        }
+        val ba= findViewById<Button>(R.id.b6)
+        ba.setOnClickListener {
+            var intent = Intent(this, Actividad8::class.java)
             startActivity(intent)
-        })
+        }
+
+
     }
 }
 

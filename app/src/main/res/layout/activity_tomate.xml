@@ -19,7 +19,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
-            android:text="Anona"
+            android:text="Tomate"
             android:textAlignment="center"
             android:textColor="@color/purple_700"
             android:textSize="34sp"
@@ -33,7 +33,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/fruta6" />
+            app:srcCompat="@drawable/fruta23" />
 
         <TextView
             android:id="@+id/textView5"
@@ -44,7 +44,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:text="La anona es un fruto muy efectivo para combatir el cáncer.  Destaca por su sabor dulce y la variedad de postres que hay con su sabor como lo pueden ser helados, batidos o zumos.  Es una fruta típica de zonas tropicales como México, Caribe, Cuba y norte de Sudamérica. Su aspecto por fuera puede imponer por sus espinas, pero su sabor es muy dulce.  La anona es muy recomendable por su eficacia antiviral, antibacterial y antifúngico, por lo que ayuda a combatir parásitos intestinales o infecciones por bacterias. También reduce la presión arterial y la frecuencia cardíaca."
+            android:text="El tomate es la hortaliza de mayor importancia en el mundo. El fruto del tomate es una baya, gruesa y carnosa con dos o más segmentos, de diferentes formas y colores según la variedad.El tomate es un alimento sano que aporta multitud de vitaminas, necesarias para el organismo. Además contiene altos niveles de potasio y de cinc. Sin embargo, una de sus cualidades más importantes es su poder antioxidante, ya que posee una sustancia, el licopeno, que junto con otros compuestos reduce el riesgo de contraer cáncer entre otros efectos."
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="20sp"

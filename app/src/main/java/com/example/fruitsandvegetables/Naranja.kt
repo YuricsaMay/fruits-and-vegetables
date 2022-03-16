@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.widget.Button
 
 
-class Camote : AppCompatActivity() {
+class Naranja : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_camote)
+        setContentView(R.layout.activity_naranja)
 
 
     }

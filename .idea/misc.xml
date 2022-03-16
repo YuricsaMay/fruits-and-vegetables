@@ -3,13 +3,38 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1915" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1915" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad2.xml" value="0.1" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad3.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad4.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad5.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad6.xml" value="0.14" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad7.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad8.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_actividad9.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_anona.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_caimito.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_calabaza.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_camote.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_cana.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_carambola.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_chile.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_ciruela.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_elote.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_frijol.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_guanabana.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_huanabana.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_jicama.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_limon.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_main.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_main2.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_mamey.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_mamoncillo.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_mandarina.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_mango.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_naranja.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_naranjaagria.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_obrad1.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_obrad2.xml" value="0.16802536231884058" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_obraf1.xml" value="0.17074275362318841" />
@@ -21,8 +46,21 @@
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_obras_francisco.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_obrav1.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_obrav6.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_papaya.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_pintores.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_pitahaya.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_piña.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_platano.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_rabano.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_sacpa.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_sandia.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_tamarindo.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_temporada.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_temporada1.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_tomate.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_toronja.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_yuca.xml" value="0.17028985507246377" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/activity_zapote.xml" value="0.17028985507246377" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/fragment_notifications.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/linear.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/template.xml" value="0.17074275362318841" />
@@ -30,6 +68,7 @@
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/template3.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/template4.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/layout/temporada.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/52983/AndroidStudioProjects/fruitsandvegetables/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
       </map>
     </option>
   </component>

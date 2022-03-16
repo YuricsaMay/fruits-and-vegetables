@@ -1,47 +1,44 @@
-package com.example.artsyapp
+package com.example.fruitsandvegetables
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.example.timeapp.R
 
-class temporada4 : AppCompatActivity() {
+
+class Actividad6 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_temporada4)
-        val bvolver= findViewById<Button>(R.id.bvolver1)
-        bvolver.setOnClickListener {
-            finish()
-        }
-        val bObraf1= findViewById<Button>(R.id.descripcionobraf1)
-        bObraf1.setOnClickListener {
-            var intent = Intent(this, Obral1::class.java)
+        setContentView(R.layout.activity_actividad6)
+
+        val bag= findViewById<Button>(R.id.descripcion)
+        bag.setOnClickListener {
+            var intent = Intent(this, Naranja::class.java)
             startActivity(intent)
         }
-        val bObraf2= findViewById<Button>(R.id.descripcionobraf2)
-        bObraf2.setOnClickListener {
-            var intent = Intent(this, Obral2::class.java)
+        val bag2= findViewById<Button>(R.id.descripcion1)
+        bag2.setOnClickListener {
+            var intent = Intent(this, Limon::class.java)
             startActivity(intent)
         }
-        val bObraf3= findViewById<Button>(R.id.descripcionobraf3)
-        bObraf3.setOnClickListener {
-            var intent = Intent(this, Obral3::class.java)
+        val bag3= findViewById<Button>(R.id.descripcion2)
+        bag3.setOnClickListener {
+            var intent = Intent(this, Mandarina::class.java)
             startActivity(intent)
         }
-        val bObraf4= findViewById<Button>(R.id.descripcionobraf4)
-        bObraf4.setOnClickListener {
-            var intent = Intent(this, Obral4::class.java)
+        val bag4= findViewById<Button>(R.id.descripcion3)
+        bag4.setOnClickListener {
+            var intent = Intent(this, Toronja::class.java)
             startActivity(intent)
         }
-        val bObraf5= findViewById<Button>(R.id.descripcionobraf5)
-        bObraf5.setOnClickListener {
-            var intent = Intent(this, Obral5::class.java)
+        val bag5= findViewById<Button>(R.id.descripcion4)
+        bag5.setOnClickListener {
+            var intent = Intent(this, Carambola::class.java)
             startActivity(intent)
         }
-        val bObraf6= findViewById<Button>(R.id.descripcionobraf6)
-        bObraf6.setOnClickListener {
-            var intent = Intent(this, Obral6::class.java)
+        val bag6= findViewById<Button>(R.id.descripcion5)
+        bag6.setOnClickListener {
+            var intent = Intent(this, Naranjaagria::class.java)
             startActivity(intent)
         }
     }

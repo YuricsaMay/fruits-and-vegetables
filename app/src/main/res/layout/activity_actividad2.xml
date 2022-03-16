@@ -1,224 +1,199 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="264dp"
+        android:layout_width="210dp"
         android:layout_height="50dp"
-        android:layout_marginLeft="140dp"
+        android:layout_marginLeft="90dp"
         android:layout_marginTop="30dp"
         android:layout_marginBottom="10dp"
-        android:text="Pintores"
-        android:textColor="@color/purple_200"
-        android:textSize="28sp"
+        android:text="Delicias de temporada"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imagenf"
-            android:layout_width="45dp"
-            android:layout_height="60dp"
-            android:layout_margin="16dp"
-            app:srcCompat="@drawable/frida" />
+                <TextView
+                    android:id="@+id/nombref"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Temporada 1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/nombref"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/txtFrida"
-            android:textSize="20sp" />
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_500"
+                    android:text="Enero - Febrero" />
+            </LinearLayout>
 
-        <Button
-            android:id="@+id/obrasf"
-            android:layout_width="15dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-            android:text="@string/txtObras" />
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/nombrep"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Temporada 2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-        <ImageView
-            android:id="@+id/imagenp"
-            android:layout_width="45dp"
-            android:layout_height="60dp"
-            android:layout_margin="16dp"
-            app:srcCompat="@drawable/pablo" />
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_700"
+                    android:text="Marzo - Abril" />
+            </LinearLayout>
 
-        <TextView
-            android:id="@+id/nombrep"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Pablo Picasso"
-            android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/obrasp"
-            android:layout_width="15dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-            android:text="@string/txtObras" />
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/nombrel"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Temporada 3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="108dp"
-        android:orientation="horizontal">
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_500"
+                    android:text="Mayo - Junio" />
+            </LinearLayout>
 
-        <ImageView
-            android:id="@+id/imagenl"
-            android:layout_width="45dp"
-            android:layout_height="60dp"
-            android:layout_margin="16dp"
-            app:srcCompat="@drawable/leonardo" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/nombrel"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Leonardo Da Vinci"
-            android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/nombrev"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Temporada 4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-        <Button
-            android:id="@+id/obrasl"
-            android:layout_width="15dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-            android:text="@string/txtObras" />
-    </LinearLayout>
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_700"
+                    android:text="Julio - Agosto" />
+            </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="104dp"
-        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/imagenv"
-            android:layout_width="45dp"
-            android:layout_height="60dp"
-            android:layout_margin="16dp"
-            app:srcCompat="@drawable/vincent" />
+                <TextView
+                    android:id="@+id/nombred"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Temporada 5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-        <TextView
-            android:id="@+id/nombrev"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Vincent van Gogh"
-            android:textSize="20sp" />
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_500"
+                    android:text="Septiembre - Octubre" />
+            </LinearLayout>
 
-        <Button
-            android:id="@+id/obrasv"
-            android:layout_width="15dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-            android:text="@string/txtObras" />
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="99dp"
-        android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/nombrefco"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="Temporada 6"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
 
-        <ImageView
-            android:id="@+id/imagend"
-            android:layout_width="45dp"
-            android:layout_height="60dp"
-            android:layout_margin="16dp"
-            app:srcCompat="@drawable/diego" />
-
-        <TextView
-            android:id="@+id/nombred"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Diego Velazquez"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/obrasd"
-            android:layout_width="15dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-            android:text="@string/txtObras" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/imagenfco"
-            android:layout_width="50dp"
-            android:layout_height="60dp"
-            android:layout_margin="16dp"
-            app:srcCompat="@drawable/francisco" />
-
-        <TextView
-            android:id="@+id/nombrefco"
-            android:layout_width="160dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Francisco de Goya"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/obrasfco"
-            android:layout_width="20dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_weight="1"
-            android:backgroundTint="@color/teal_700"
-            android:text="@string/txtObras" />
-    </LinearLayout>
-
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/purple_700"
+                    android:text="Noviembre - Diciembre" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>

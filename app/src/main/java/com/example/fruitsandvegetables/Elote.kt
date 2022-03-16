@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.widget.Button
 
 
-class Caimito : AppCompatActivity() {
+class Elote : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_caimito)
+        setContentView(R.layout.activity_elote)
 
 
     }

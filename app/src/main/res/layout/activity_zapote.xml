@@ -19,7 +19,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
-            android:text="Ciruela"
+            android:text="Zapote"
             android:textAlignment="center"
             android:textColor="@color/purple_700"
             android:textSize="34sp"
@@ -33,7 +33,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/fruta12" />
+            app:srcCompat="@drawable/fruta32" />
 
         <TextView
             android:id="@+id/textView5"
@@ -44,7 +44,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
-            android:text="La ciruela es un frutal con alto potencial para cultivo, debido a su bajo costo de producción, crece en forma espontánea y se adapta a suelos pobres y delgados donde no se establecen otros cultivos, además tiene resistencia a la sequía por su mecanismo de defoliación (caída prematura de las hojas de los árboles).  Al respecto, basándose en estudios de ciruela mexicana que reportan gran diversidad de especies, las cuales se deben estudiar para obtener materiales con características de calidad y aporte de metabolitos funcionales, que favorezcan su consumo, los investigadores señalaron que los estudios en Chiapas son escasos "
+            android:text="El zapote es una fruta tropical consumida en México y América Central, según la variedad su pulpa puede ser amarilla, blanca, negra o rojiza, el fruto puede ser redondo, ovoide o elíptico, a menudo termina en punta en el ápice. La palabra zapote, del náhuatl tzapotl, es el nombre usado para varias frutas tropicales comunes, algunas no provenientes de la familia botánica Sapotaceae. El zapote blanco tiene mucha vitamina C y A que ayudan a estimular el sistema inmunológico. El chicozapote se utiliza en problemas digestivos, en particular contra la disentería y la diarrea."
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textSize="20sp"

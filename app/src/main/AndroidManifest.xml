@@ -9,6 +9,112 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FruitsAndVegetables">
+
+        <activity
+            android:name=".Jicama"
+            android:exported="false" />
+        <activity
+            android:name=".Cana"
+            android:exported="false" />
+        <activity
+            android:name=".Rabano"
+            android:exported="false" />
+        <activity
+            android:name=".Chile"
+            android:exported="false" />
+        <activity
+            android:name=".Frijol"
+            android:exported="false" />
+        <activity
+            android:name=".Calabaza"
+            android:exported="false" />
+        <activity
+            android:name=".Tomate"
+            android:exported="false" />
+        <activity
+            android:name=".Elote"
+            android:exported="false" />
+        <activity
+            android:name=".Naranjaagria"
+            android:exported="false" />
+        <activity
+            android:name=".Carambola"
+            android:exported="false" />
+        <activity
+            android:name=".Toronja"
+            android:exported="false" />
+        <activity
+            android:name=".Mandarina"
+            android:exported="false" />
+        <activity
+            android:name=".Limon"
+            android:exported="false" />
+        <activity
+            android:name=".Naranja"
+            android:exported="false" />
+        <activity
+            android:name=".Sacpa"
+            android:exported="false" />
+        <activity
+            android:name=".Camote"
+            android:exported="false" />
+        <activity
+            android:name=".Yuca"
+            android:exported="false" />
+        <activity
+            android:name=".Pitahaya"
+            android:exported="false" />
+        <activity
+            android:name=".Platano"
+            android:exported="false" />
+        <activity
+            android:name=".Mamoncillo"
+            android:exported="false" />
+        <activity
+            android:name=".Zapote"
+            android:exported="false" />
+        <activity
+            android:name=".Mango"
+            android:exported="false" />
+        <activity
+            android:name=".Mamey"
+            android:exported="false" />
+        <activity
+            android:name=".Sandia"
+            android:exported="false" />
+        <activity
+            android:name=".Ciruela"
+            android:exported="false" />
+        <activity
+            android:name=".Caimito"
+            android:exported="false" />
+        <activity
+            android:name=".pina"
+            android:exported="false" />
+        <activity
+            android:name=".Tamarindo"
+            android:exported="false" />
+        <activity
+            android:name=".Papaya"
+            android:exported="false" />
+        <activity
+            android:name=".Huanabana"
+            android:exported="false" />
+        <activity
+            android:name=".Anona"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad8"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad7"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad6"
+            android:exported="false" />
+        <activity
+            android:name=".Actividad5"
+            android:exported="false" />
         <activity
             android:name=".Actividad4"
             android:exported="false" />
@@ -18,14 +124,18 @@
         <activity
             android:name=".Actividad2"
             android:exported="false" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

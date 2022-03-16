@@ -4,257 +4,244 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginRight="6dp"
     android:orientation="vertical"
-    tools:context=".ObrasLeonardo">
+    android:paddingTop="10dp">
 
-    <Button
-        android:id="@+id/bvolver1"
-        android:layout_width="46dp"
-        android:layout_height="36dp"
-        android:background="@drawable/ic_baseline_arrow_back_24" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="369dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="23dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="10dp"
-        android:text="Obras Leonardo Da Vinci"
-        android:textAlignment="textStart"
-        android:textColor="@color/purple_200"
-        android:textSize="28sp"
-        android:textStyle="bold" />
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="193dp"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="195dp"
-            android:layout_height="229dp"
-            android:orientation="vertical"
-            android:paddingLeft="10dp">
-
-            <ImageView
-                android:id="@+id/obraf1"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta11" />
-
-            <TextView
-                android:id="@+id/nombreObraf1"
-                android:layout_width="193dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
-                android:layout_marginBottom="1dp"
-                android:paddingLeft="25dp"
-                android:text="&quot;Mona Lisa&quot;"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/descripcionobraf1"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="@string/txtReseñaP" />
-
-        </LinearLayout>
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="511dp"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/obraf2"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta11" />
+                android:layout_height="193dp"
+                android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/nombreObraf2"
-                android:layout_width="266dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
-                android:layout_marginBottom="1dp"
-                android:paddingLeft="25dp"
-                android:text="&quot;San Jerónimo&quot;"
-                android:textAlignment="textStart"
-                android:textSize="20sp" />
+                <LinearLayout
+                    android:layout_width="175dp"
+                    android:layout_height="229dp"
+                    android:orientation="vertical">
 
-            <Button
-                android:id="@+id/descripcionobraf2"
+                    <ImageView
+                        android:id="@+id/anona"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        app:srcCompat="@drawable/fruta24" />
+
+                    <TextView
+                        android:id="@+id/nombreanona"
+                        android:layout_width="193dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:paddingLeft="25dp"
+                        android:text="Camote"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/descripcion"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="información" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="184dp"
+                    android:layout_height="229dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/huanabana"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        app:srcCompat="@drawable/fruta25" />
+
+                    <TextView
+                        android:id="@+id/nombrehuanabana"
+                        android:layout_width="266dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:paddingLeft="25dp"
+                        android:text="Caña"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/descripcion1"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="información" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="@string/txtReseñaP" />
+                android:layout_height="197dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="175dp"
+                    android:layout_height="229dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/papaya"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        app:srcCompat="@drawable/fruta22" />
+
+                    <TextView
+                        android:id="@+id/nombrepapaya"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:paddingLeft="25dp"
+                        android:text="Yuca"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/descripcion2"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="información" />
+
+                </LinearLayout>
 
 
+                <LinearLayout
+                    android:layout_width="184dp"
+                    android:layout_height="229dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/tamarindo"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        app:srcCompat="@drawable/fruta33" />
+
+                    <TextView
+                        android:id="@+id/nombretamarindo"
+                        android:layout_width="209dp"
+                        android:layout_height="29dp"
+                        android:layout_marginBottom="1dp"
+                        android:paddingLeft="25dp"
+                        android:text="Toronja"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/descripcion3"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="información" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="229dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="175dp"
+                    android:layout_height="229dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/piña"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        app:srcCompat="@drawable/fruta13" />
+
+                    <TextView
+                        android:id="@+id/nombrepiña"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:paddingLeft="25dp"
+                        android:text="Naranja"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/descripcion4"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="información" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="184dp"
+                    android:layout_height="229dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/cai"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:layout_margin="16dp"
+                        app:srcCompat="@drawable/fruta21" />
+
+                    <TextView
+                        android:id="@+id/nombrecai"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:paddingLeft="25dp"
+                        android:text="Jicama"
+                        android:textAlignment="viewStart"
+                        android:textSize="20sp" />
+
+                    <Button
+                        android:id="@+id/descripcion5"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:backgroundTint="@color/purple_500"
+                        android:text="información" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
         </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="197dp"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="186dp"
-            android:layout_height="229dp"
-            android:orientation="vertical"
-            android:paddingLeft="10dp">
-
-            <ImageView
-                android:id="@+id/obraf3"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta13" />
-
-            <TextView
-                android:id="@+id/nombreObraf3"
-                android:layout_width="170dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="1dp"
-                android:layout_marginBottom="1dp"
-                android:paddingLeft="25dp"
-                android:text="&quot;Baco&quot;"
-                android:textAlignment="center"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/descripcionobraf3"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="@string/txtReseñaP" />
-
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="511dp"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/obraf4"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta12" />
-
-            <TextView
-                android:id="@+id/nombreObraf4"
-                android:layout_width="209dp"
-                android:layout_height="29dp"
-                android:layout_marginBottom="1dp"
-                android:paddingLeft="25dp"
-                android:text="&quot;Monna Vanna&quot;"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/descripcionobraf4"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="@string/txtReseñaP" />
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="229dp"
-        android:orientation="horizontal">
-
-        <LinearLayout
-            android:layout_width="193dp"
-            android:layout_height="229dp"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/obraf5"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta10" />
-
-            <TextView
-                android:id="@+id/nombreObraf5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="25dp"
-                android:text="&quot;Salvator Mundi&quot;"
-                android:textAlignment="center"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/descripcionobraf5"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="@string/txtReseñaP" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="511dp"
-            android:orientation="vertical">
-
-            <ImageView
-                android:id="@+id/obraf6"
-                android:layout_width="match_parent"
-                android:layout_height="80dp"
-                android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta11" />
-
-            <TextView
-                android:id="@+id/nombreObraf6"
-                android:layout_width="160dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginBottom="16dp"
-                android:paddingLeft="25dp"
-                android:text="&quot;Anunciacón&quot;"
-                android:textAlignment="viewStart"
-                android:textSize="20sp" />
-
-            <Button
-                android:id="@+id/descripcionobraf6"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:backgroundTint="@color/teal_700"
-                android:text="@string/txtReseñaP" />
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-
+    </ScrollView>
 </LinearLayout>
