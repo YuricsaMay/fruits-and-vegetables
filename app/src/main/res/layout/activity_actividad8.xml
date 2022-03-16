@@ -6,8 +6,26 @@
     android:layout_height="match_parent"
     android:layout_marginRight="6dp"
     android:orientation="vertical"
-    android:paddingTop="40dp"
-    tools:context=".ObrasDiego">
+    tools:context=".ObrasLeonardo">
+
+    <Button
+        android:id="@+id/bvolver1"
+        android:layout_width="46dp"
+        android:layout_height="36dp"
+        android:background="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="369dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="Obras Leonardo Da Vinci"
+        android:textAlignment="textStart"
+        android:textColor="@color/purple_200"
+        android:textSize="28sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +43,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta12" />
+                app:srcCompat="@drawable/fruta11" />
 
             <TextView
                 android:id="@+id/nombreObraf1"
@@ -34,7 +52,7 @@
                 android:layout_marginTop="1dp"
                 android:layout_marginBottom="1dp"
                 android:paddingLeft="25dp"
-                android:text="Ciruela"
+                android:text="&quot;Mona Lisa&quot;"
                 android:textAlignment="viewStart"
                 android:textSize="20sp" />
 
@@ -44,8 +62,8 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:backgroundTint="@color/purple_500"
-                android:text="Información" />
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/txtReseñaP" />
 
         </LinearLayout>
 
@@ -59,7 +77,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta2" />
+                app:srcCompat="@drawable/fruta11" />
 
             <TextView
                 android:id="@+id/nombreObraf2"
@@ -68,7 +86,7 @@
                 android:layout_marginTop="1dp"
                 android:layout_marginBottom="1dp"
                 android:paddingLeft="25dp"
-                android:text="Sandía"
+                android:text="&quot;San Jerónimo&quot;"
                 android:textAlignment="textStart"
                 android:textSize="20sp" />
 
@@ -78,8 +96,8 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:backgroundTint="@color/purple_500"
-                android:text="información" />
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/txtReseñaP" />
 
 
         </LinearLayout>
@@ -102,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta7" />
+                app:srcCompat="@drawable/fruta13" />
 
             <TextView
                 android:id="@+id/nombreObraf3"
@@ -111,7 +129,7 @@
                 android:layout_marginTop="1dp"
                 android:layout_marginBottom="1dp"
                 android:paddingLeft="25dp"
-                android:text="Mamey"
+                android:text="&quot;Baco&quot;"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
@@ -121,8 +139,8 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:backgroundTint="@color/purple_500"
-                android:text="infromación" />
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/txtReseñaP" />
 
         </LinearLayout>
 
@@ -137,7 +155,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta1" />
+                app:srcCompat="@drawable/fruta12" />
 
             <TextView
                 android:id="@+id/nombreObraf4"
@@ -145,7 +163,7 @@
                 android:layout_height="29dp"
                 android:layout_marginBottom="1dp"
                 android:paddingLeft="25dp"
-                android:text="Mango"
+                android:text="&quot;Monna Vanna&quot;"
                 android:textAlignment="viewStart"
                 android:textSize="20sp" />
 
@@ -155,8 +173,8 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:backgroundTint="@color/purple_500"
-                android:text="información" />
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/txtReseñaP" />
 
 
         </LinearLayout>
@@ -178,7 +196,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta32" />
+                app:srcCompat="@drawable/fruta10" />
 
             <TextView
                 android:id="@+id/nombreObraf5"
@@ -187,7 +205,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:paddingLeft="25dp"
-                android:text="Zapote"
+                android:text="&quot;Salvator Mundi&quot;"
                 android:textAlignment="center"
                 android:textSize="20sp" />
 
@@ -197,8 +215,8 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:backgroundTint="@color/purple_500"
-                android:text="infromación" />
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/txtReseñaP" />
 
         </LinearLayout>
 
@@ -212,7 +230,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:layout_margin="16dp"
-                app:srcCompat="@drawable/fruta8" />
+                app:srcCompat="@drawable/fruta11" />
 
             <TextView
                 android:id="@+id/nombreObraf6"
@@ -221,7 +239,7 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="16dp"
                 android:paddingLeft="25dp"
-                android:text="Papaya"
+                android:text="&quot;Anunciacón&quot;"
                 android:textAlignment="viewStart"
                 android:textSize="20sp" />
 
@@ -231,8 +249,8 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:backgroundTint="@color/purple_500"
-                android:text="infromación" />
+                android:backgroundTint="@color/teal_700"
+                android:text="@string/txtReseñaP" />
 
 
         </LinearLayout>
