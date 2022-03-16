@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="264dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Caimito"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/fruta10" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="El caimito o bien, Chrysophyllum cainito es una fruta tropical que llega a utilizarse para usos medicinales y nutritivos, en otros países también se le conoce como manzana de estrella, manzana de leche, leche de pecho entre otros. Como sea que la llames es una opción deliciosa y te conviene conocer los beneficios de comer caimito. Algunos consideran que tiene un sabor parecido al coco con un toque dulce, hoy en día es una fruta comestible que puede ser adecuada en huertos de hogar. Debido a sus propiedades, fuentes de nutrientes, vitaminas y minerales, hoy te contaremos 9 beneficios de comer caimito que tiene para la salud.   "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+</LinearLayout>

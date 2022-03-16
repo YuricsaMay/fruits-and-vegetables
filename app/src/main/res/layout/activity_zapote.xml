@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="264dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:text="Ciruela"
+            android:textAlignment="center"
+            android:textColor="@color/purple_700"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="139dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/fruta12" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:text="La ciruela es un frutal con alto potencial para cultivo, debido a su bajo costo de producción, crece en forma espontánea y se adapta a suelos pobres y delgados donde no se establecen otros cultivos, además tiene resistencia a la sequía por su mecanismo de defoliación (caída prematura de las hojas de los árboles).  Al respecto, basándose en estudios de ciruela mexicana que reportan gran diversidad de especies, las cuales se deben estudiar para obtener materiales con características de calidad y aporte de metabolitos funcionales, que favorezcan su consumo, los investigadores señalaron que los estudios en Chiapas son escasos "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            app:autoSizeTextType="uniform" />
+
+    </LinearLayout>
+
+</LinearLayout>
